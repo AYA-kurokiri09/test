@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T15:20:15.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="Vq5r5hwzvkPmnRtSEN6e" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T15:29:27.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="EYjEiUsXb6xOrRKXlsWH" version="13.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="622" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3_x2MFgSif2VCrNl19pF-6" value="DB1と照合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3_x2MFgSif2VCrNl19pF-6" value="DB1※と照合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="440" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3_x2MFgSif2VCrNl19pF-10" value="" style="endArrow=block;html=1;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3_x2MFgSif2VCrNl19pF-4" target="3_x2MFgSif2VCrNl19pF-6">
@@ -105,8 +105,17 @@
         <mxCell id="3_x2MFgSif2VCrNl19pF-19" value="トップページ&lt;br&gt;home.blade.php" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="565" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3_x2MFgSif2VCrNl19pF-20" value="&lt;font style=&quot;font-size: 14px&quot;&gt;※バリデーションチェックの内容&lt;br&gt;&lt;br&gt;・名前、パスワードの両方が入力されているか&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;・名前、パスワードの両方が指定の文字数以上か&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="640" width="320" height="100" as="geometry" />
+        <mxCell id="3_x2MFgSif2VCrNl19pF-20" value="&lt;font style=&quot;font-size: 14px&quot;&gt;※DB1とは&lt;br&gt;ユーザー名前とパスワードを管理するデータベース&lt;br&gt;&lt;br&gt;&lt;br&gt;※バリデーションチェックの内容&lt;br&gt;・名前、パスワードの両方が入力されているか&lt;br&gt;&lt;div&gt;・名前、パスワードの両方が指定の文字数以上か&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="650" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3_x2MFgSif2VCrNl19pF-21" value="DB1※" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="425" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3_x2MFgSif2VCrNl19pF-22" value="" style="endArrow=block;html=1;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="480" as="sourcePoint" />
+            <mxPoint x="170" y="480" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
